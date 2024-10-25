@@ -1,21 +1,35 @@
 body {
-text-align: center;
-background-color:dimgray;
-}
-
-h3 {
-color: aquamarine;
-font-size: 30px;
-}
-
-
-p {
-
-font-size: large;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-#hoverText{
-color: bisque;
-}
+    text-align: center;
+    background-color:dimgray;
+    }
+    
+    h3 {
+    color: aquamarine;
+    font-size: 30px;
+    }
+    
+    
+    p {
+    
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+    #hoverText{
+    color: bisque;
+    }
+    .why_so_serious{
+    width: 1000px; 
+    height: 500px;
+    }
+    
+    .image {
+    width: 100%; 
+    }
+        
+    
+    .why_so_serious:hover .image {
+    transform: scale(4);
+    }
+    
