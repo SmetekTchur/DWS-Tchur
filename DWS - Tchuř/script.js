@@ -62,12 +62,8 @@ document.getElementById("Výsledek").innerText = + result;
 }
 
 
-document.querySelector('.image'); addEventListener('mouseover', () => {
-document.querySelector('.image'); style.transform = 'scale(4)';
-});
-
-document.querySelector('.image'); addEventListener('mouseout', () => {
-document.querySelector('.image'); style.transform = 'scale(1)';
-});
-
+function PridejTask(){
+result1 = document.getElementById("slovoinput").value+
+document.getElementById("Vysledek2").innerHTML + "<p id="+result1+">"+ result1 + "<button onclick=delete("+result1+")>Delete</button></p>";
+}
 
