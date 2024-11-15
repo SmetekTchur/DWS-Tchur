@@ -63,7 +63,12 @@ document.getElementById("Výsledek").innerText = + result;
 
 
 function PridejTask(){
-result1 = document.getElementById("slovoinput").value+
-document.getElementById("Vysledek2").innerHTML + "<p id="+result1+">"+ result1 + "<button onclick=delete("+result1+")>Delete</button></p>";
+result1 = document.getElementById("slovoinput").value;
+document.getElementById("Vysledek2").innerHTML += "<p id="+result1+">"+ result1 + "<button onclick=smazat('"+result1+"')>Smaž</button></p>";
 }
+
+function smazat(id){
+document.getElementById(id).remove();
+}
+
 
